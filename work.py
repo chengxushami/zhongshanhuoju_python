@@ -60,25 +60,31 @@ def kongtiao():
     pass
 
 if __name__ == '__main__':
-    # 选择机器人
-    print("请选择机器人")
-    print("1.季节判断机器人")
-    print("2.价格预警机器人")
-    print("3.考试评语机器人")
-    print("4.智能空调机器人")
-    num=int(input("请输入机器人编号："))
-    if num==1:
-        jijie()
+    while 1:
+        # 选择机器人
+        print("请选择机器人")
+        print("1.季节判断机器人")
+        print("2.价格预警机器人")
+        print("3.考试评语机器人")
+        print("4.智能空调机器人")
+        print("5.退出程序")
+        num=int(input("请输入机器人编号："))
+        if num==1:
+            jijie()
+            pass
+        elif num==2:
+            jiage()
+            pass
+        elif num==3:
+            kaoshi()
+            pass
+        elif num==4:
+            kongtiao()
+            pass
+        elif num==5:
+            exit(0)
+        else:
+            print("输入有误，请重新输入")
+            pass
         pass
-    elif num==2:
-        jiage()
-        pass
-    elif num==3:
-        kaoshi()
-        pass
-    elif num==4:
-        kongtiao()
-        pass
-    else:
-        print("输入有误，请重新输入")
     pass
