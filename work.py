@@ -60,6 +60,7 @@ def kongtiao():
     pass
 
 if __name__ == '__main__':
+    print("hello wrold")
     while 1:
         # 选择机器人
         print("请选择机器人")
