@@ -8,7 +8,7 @@ def com(a:int,b:int,C:str) :
         print(f"{a}*{b}={a*b}")
     elif C=='/':
         print(f"{a}/{b}={a/b}")
-com(5,6,'+')
+com()
 # 有1,2,3,4,个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
 def num():
     count=0
